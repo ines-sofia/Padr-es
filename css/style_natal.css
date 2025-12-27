@@ -1,0 +1,56 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+}
+
+#cabecalho {
+    background-color: hsla(107, 43%, 21%, 0.785);
+    height: 140px;
+    width: 105.55%;
+    margin-left: -40px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+/* Esconder os blocos de resultado até serem mostrados pelo script */
+pre {
+    display: none;
+    margin: 8px 0;
+}
+
+#arvore {
+    margin-top: 10px;
+}
+
+#arvorespawn {
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    background: #23602fb2;
+    color: white;
+    cursor: pointer;
+    transition: 0.12s;
+    box-shadow: 0 8px 20px rgba(43, 124, 255, 0.18);
+}
+
+button:hover {
+    transform: scale(1.05);
+
+}
+
+img {
+    margin-top: -10px;
+    width: 20px;
+    height: auto;
+    transition: 0.2s;
+}
+
+img:hover {
+    transform: scale(1.4);
+}

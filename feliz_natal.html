@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padrões de Javascript</title>
+    <link rel="stylesheet" href="css/style_natal.css">
+</head>
+<body>
+    <div id="cabecalho">
+        <br>
+        <h1>Padrões de Javascript</h1>
+        
+        <a href="index.html"><img src="seta.de.regresso.png" alt="seta de regresso"></a>
+    </div>
+    <!-- container onde a árvore será gerada pelo script -->
+    <div id="arvorespawn" aria-label="Árvore de Natal"></div>
+
+    <div id="arvore">
+        <button onclick="ligarArvore()">Ligar</button>
+        <button onclick="desligarArvore()">Desligar</button>
+        <button onclick="mudarAlternado()">Mudar para alternado</button>
+        <button onclick="mudarPisca()">Mudar para luzes a piscar</button>
+        <pre id="resultadoarvore"></pre>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
